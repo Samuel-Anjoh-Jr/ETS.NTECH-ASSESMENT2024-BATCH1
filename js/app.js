@@ -4,6 +4,6 @@ async function includeHTML(elementId, file) {
     document.getElementById(elementId).innerHTML = htmlContent;
   }
   
-  includeHTML('samuel','/pages/samuel_page.html');
-  includeHTML('pride','/pages/pride_page.html');
-  includeHTML('prince','/pages/prince_page.html');
+  includeHTML('samuel','./pages/samuel_page.html');
+  includeHTML('pride','./pages/pride_page.html');
+  includeHTML('prince','./pages/prince_page.html');

@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.header-samuel {
+    background: url('') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.top-bar-samuel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-samuel img {
+    height: 50px;
+}
+
+.nav-samuel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-samuel ul li a {
+    color: #ff4a4a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-actions-samuel a {
+    color: #ff4a4a;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.campaign-samuel {
+    border: 2px solid #ff4a4a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff4a4a;
+}
+
+.main-content-samuel h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.main-content-samuel h2 {
+    font-size: 48px;
+    color: #ff4a4a;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.description-samuel {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.event-details-samuel {
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
