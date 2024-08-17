@@ -1,0 +1,55 @@
+.footer-logos-pride{
+    background: #555555;
+ }
+ .footer-logos-pride p{
+     
+        margin: 0;
+        font-size: 14px;
+        color: #888888;
+        text-align: center;
+        background: #555555;
+        padding: 30px;
+         width: 100vw;
+    }
+
+    
+
+  .footer-logos-pride img {
+    display: inline;
+    margin-right: 50px;
+    margin-left: 30px;
+    justify-content: center;
+    width: 170px;
+    height: 20;
+    top: 35px;
+    left: 120px;
+    gap: 30px;
+  }
+
+  .copyright-pride {
+    background: #f6f7f9;
+    padding: 30px;
+    width: 100vw;
+    width: Hug (998px)px;
+height: Hug (98px)px;
+top: 74px;
+left: 221px;
+gap: 65px;
+opacity: 0px;
+
+  }
+
+  .copyright-pride p {
+    margin: 0;
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+    
+
+  }
+.copyright-pride img {
+         width: 250px;
+        height: 42.25px;
+        margin-left: 110px;
+
+}
