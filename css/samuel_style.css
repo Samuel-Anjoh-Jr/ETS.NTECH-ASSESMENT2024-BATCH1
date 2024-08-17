@@ -8,18 +8,19 @@ body, html {
 .header-samuel {
     background: url('../img/samuel_img/bg.png') no-repeat center center;
     background-size: cover;
-    padding: 20px;
+    padding: 0px;
     color: #fff;
     text-align: center;
     position: relative;
     height: 100vh;
-    width: 96.5%;
+    width: 100%;
 }
 
 .top-section-samuel{
     display: flex;
     justify-content: end;
     background-color: #3E3E3E;
+    padding: 1%;
 }
 
 .top-section-samuel a{
@@ -43,6 +44,7 @@ body, html {
 }
 
 .logo-samuel img {
+    margin: 10px;
     height: 50px;
 }
 
@@ -63,8 +65,8 @@ body, html {
 .user-actions-samuel a {
     color: #ff4a4a;
     text-decoration: none;
-    margin-left: 15px;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 .campaign-samuel {
