@@ -6,12 +6,31 @@ body, html {
 }
 
 .header-samuel {
-    background: url('') no-repeat center center;
+    background: url('../img/samuel_img/bg.png') no-repeat center center;
     background-size: cover;
     padding: 20px;
     color: #fff;
     text-align: center;
     position: relative;
+    height: 100vh;
+    width: 96.5%;
+}
+
+.top-section-samuel{
+    display: flex;
+    justify-content: end;
+    background-color: #3E3E3E;
+}
+
+.top-section-samuel a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.top-section-samuel img{
+    margin-left: 15px;
 }
 
 .top-bar-samuel {
@@ -19,6 +38,8 @@ body, html {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 100%;
 }
 
 .logo-samuel img {
@@ -54,9 +75,16 @@ body, html {
     color: #ff4a4a;
 }
 
+.main-content-samuel{
+    padding: 0px 20% 0px 20%;
+    text-align: left;
+    border: #F25835;
+}
+
 .main-content-samuel h1 {
     font-size: 36px;
     margin: 10px 0;
+    color: #F35924;
 }
 
 .main-content-samuel h2 {
@@ -67,15 +95,17 @@ body, html {
 }
 
 .description-samuel {
+    color: #515151;
     font-size: 18px;
-    background-color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
+    border: 5PX solid #FBFBFB;
 }
 
 .event-details-samuel {
     font-size: 24px;
     margin-top: 20px;
     line-height: 1.5;
+    color: #595959;
 }
