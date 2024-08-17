@@ -1,0 +1,25 @@
+.footer-logos-pride{
+    background: #555555;
+ }
+ .footer-logos-pride p{
+     
+        margin: 0;
+        font-size: 14px;
+        color: #888888;
+        text-align: center;
+        background: #555555;
+        padding: 30px;
+         width: 100vw;
+    }
+
+  .footer-logos-pride img {
+    display: inline;
+    margin-right: 50px;
+    margin-left: 30px;
+    justify-content: center;
+    width: 170px;
+    height: 20;
+    top: 35px;
+    left: 120px;
+    gap: 30px;
+  }
