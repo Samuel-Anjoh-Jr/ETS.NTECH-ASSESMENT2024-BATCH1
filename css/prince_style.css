@@ -1,0 +1,127 @@
+/* General Styles */
+#elondo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Main Program Section */
+.main-program {
+    padding: 40px 20px;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.program-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.program-item {
+    background-color: #3c3c3c;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    max-width: 20%;
+}
+
+.program-item img {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+
+.program-item h3 {
+    color: #ff4b2b;
+    margin-bottom: 10px;
+}
+
+.program-item p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.see-program {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.see-program a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Featured Speakers Section */
+.featured-speakers {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.speaker-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.speaker-info {
+    text-align: left;
+}
+
+.speaker-item h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.speaker-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .program-container, .speakers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-item, .speaker-item {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .speaker-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .speaker-info {
+        text-align: center;
+    }
+}
