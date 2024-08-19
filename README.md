@@ -89,11 +89,11 @@ You can deploy this project using:
 
 👤 **Ketu Mary-Pride**
 
-- GitHub: [Samuel-Anjoh-Jr](https://github.com/PrideKetu)
+- GitHub: [PrideKetu](https://github.com/PrideKetu)
 
 👤 **Elondo Prince-Darlins**
 
-- GitHub: [Samuel-Anjoh-Jr](https://github.com/ElondoPrinceDarlins)
+- GitHub: [ElondoPrinceDarlins](https://github.com/ElondoPrinceDarlins)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
